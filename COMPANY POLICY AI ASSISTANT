@@ -12,7 +12,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 4,
+      "execution_count": null,
       "metadata": {
         "collapsed": true,
         "id": "dvwya9i1bh0R"
@@ -39,12 +39,12 @@
       "metadata": {
         "id": "B38PkpFEd2op"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": []
     },
     {
       "cell_type": "code",
-      "execution_count": 6,
+      "execution_count": null,
       "metadata": {
         "id": "dcr0vjNmboFz",
         "collapsed": true
@@ -78,7 +78,7 @@
       "metadata": {
         "id": "UpVfY7sLVN90"
       },
-      "execution_count": 7,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -89,7 +89,7 @@
       "metadata": {
         "id": "ZPJNNV7kWD3C"
       },
-      "execution_count": 8,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -110,7 +110,7 @@
       "metadata": {
         "id": "UbMRbBqlWGhD"
       },
-      "execution_count": 9,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -137,7 +137,7 @@
         },
         "outputId": "f4d108e8-3e1b-416c-988c-9e53bc221512"
       },
-      "execution_count": 10,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -182,7 +182,7 @@
         "id": "0Md_X9n-WNVK",
         "outputId": "06202238-1b88-40a2-920a-f537bf4eee40"
       },
-      "execution_count": 11,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -215,7 +215,7 @@
         "id": "Oens2PmKWVaK",
         "outputId": "221cfb95-0f61-40c6-843c-309b77f195d3"
       },
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -257,7 +257,7 @@
         "id": "x87xOr0cWXbb",
         "outputId": "37d5a41b-fbbc-4de5-96d7-6f3d66e608b8"
       },
-      "execution_count": 13,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -282,7 +282,7 @@
       "metadata": {
         "id": "-hHxg3QoWffa"
       },
-      "execution_count": 14,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -455,7 +455,7 @@
         "outputId": "84cccea2-d9d7-4de9-9930-5319159b108d",
         "collapsed": true
       },
-      "execution_count": 15,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -669,7 +669,7 @@
       "metadata": {
         "id": "lt6BxAmTWiYK"
       },
-      "execution_count": 16,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -709,7 +709,7 @@
       "metadata": {
         "id": "PHh_LqQOWrTC"
       },
-      "execution_count": 17,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -751,7 +751,7 @@
       "metadata": {
         "id": "8zrzTXirW2b7"
       },
-      "execution_count": 18,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -778,7 +778,7 @@
       "metadata": {
         "id": "RCRXKawWW4dr"
       },
-      "execution_count": 19,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -797,7 +797,7 @@
         "id": "0I730HPWW6VC",
         "outputId": "662f997d-cbb8-45e8-ba43-7d1b8996dad8"
       },
-      "execution_count": 20,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -824,7 +824,7 @@
         "id": "UUhO_cqmiPpR",
         "outputId": "730e9a73-865a-44e2-b6f6-724a56c49436"
       },
-      "execution_count": 21,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -854,7 +854,7 @@
       "metadata": {
         "id": "c_XSPr6nW7bT"
       },
-      "execution_count": 22,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -903,7 +903,7 @@
       "metadata": {
         "id": "fMRxmI9VXQwC"
       },
-      "execution_count": 23,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -943,7 +943,7 @@
       "metadata": {
         "id": "SuCfX4dwXSJ7"
       },
-      "execution_count": 24,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1044,7 +1044,7 @@
       "metadata": {
         "id": "x8IQiM7MyeN4"
       },
-      "execution_count": 25,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1058,7 +1058,7 @@
       "metadata": {
         "id": "7_ldQVn9XVRT"
       },
-      "execution_count": 26,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1143,7 +1143,7 @@
       "metadata": {
         "id": "f6h-6doAX0za"
       },
-      "execution_count": 27,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1169,7 +1169,7 @@
       "metadata": {
         "id": "vGeLsH6gX1MC"
       },
-      "execution_count": 28,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1198,7 +1198,7 @@
       "metadata": {
         "id": "C9ayyztqX9ET"
       },
-      "execution_count": 29,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1213,7 +1213,7 @@
         "id": "6pgcajTOX_sr",
         "outputId": "b5650de5-70cb-4ecb-8746-f0a482870ef1"
       },
-      "execution_count": 30,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1250,7 +1250,7 @@
         "id": "RDnIP3o0ixOC",
         "outputId": "afeb0a12-df32-4247-f5d5-1a2977aeec25"
       },
-      "execution_count": 31,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1289,7 +1289,7 @@
         },
         "outputId": "ca497987-54b9-4f57-dac6-84715b132207"
       },
-      "execution_count": 32,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1323,7 +1323,7 @@
         "id": "QaLhk7greKuZ",
         "outputId": "63d5fd38-00d2-4693-8e82-499361c80663"
       },
-      "execution_count": 33,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1393,7 +1393,7 @@
       "metadata": {
         "id": "38F3N28keScS"
       },
-      "execution_count": 34,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -1412,7 +1412,7 @@
         "id": "tMHYSHyrenCC",
         "outputId": "72a5c2bf-8d2e-459b-ed70-24ce824cd13a"
       },
-      "execution_count": 35,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -1481,7 +1481,7 @@
         "id": "ZEBoOHWew8qW",
         "outputId": "85b5b37a-8098-4068-cf82-d4070d42bb3b"
       },
-      "execution_count": 36,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
