@@ -43,7 +43,12 @@ A RAG-based AI agent that answers employee questions from company policy documen
 - Plain similarity search; no re-ranking or hybrid search yet
 - No conversation memory yet: each question is answered independently
 - No automated evaluation yet (for example RAGAS)
-- Runs in Colab; no deployed UI or API yet
+
+## Web demo
+`app.py` is a Streamlit chat app for Streamlit Community Cloud. It uses Gemini embeddings (`gemini-embedding-001`) instead of the local MiniLM model so it fits the free tier's memory.
+- Put the policy PDFs in `documents/`.
+- Locally: copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml`, add your key, then `pip install -r requirements.txt` and `streamlit run app.py`.
+- On Streamlit Cloud: add `GOOGLE_API_KEY` in the app's Secrets.
 
 ## License
 MIT
