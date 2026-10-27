@@ -47,6 +47,7 @@ A RAG-based AI agent that answers employee questions from company policy PDFs. A
 - Plain similarity search; no re-ranking or hybrid search yet
 - No conversation memory yet: each question is answered independently
 - No automated evaluation yet (for example RAGAS)
+- Document upload: let visitors try their own PDF (one file, about 10 pages) in a private index for their session, alongside the built-in documents. The holiday tool would be turned off for uploaded documents, since it expects the company holiday calendar
 
 ## Web demo
 `app.py` is a Streamlit chat app for Streamlit Community Cloud. It uses Gemini embeddings (`gemini-embedding-001`) instead of the local MiniLM model so it fits the free tier's memory.
