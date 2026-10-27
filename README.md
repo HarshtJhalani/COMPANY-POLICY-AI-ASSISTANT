@@ -1,6 +1,10 @@
 # Company Policy AI Assistant
 
-A RAG-based AI agent that answers employee questions from company policy documents stored in a Google Drive folder. Answers cite the source document and page, and the assistant says so when the answer is not in the documents instead of guessing.
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://company-policy-assistant-v1.streamlit.app/)
+
+**Live demo:** https://company-policy-assistant-v1.streamlit.app/ (uses made-up policy documents)
+
+A RAG-based AI agent that answers employee questions from company policy PDFs. Answers cite the source document and page, and the assistant says so when the answer is not in the documents instead of guessing.
 
 ## What it does
 - Loads policy PDFs from Google Drive and splits them into chunks
