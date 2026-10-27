@@ -43,10 +43,25 @@ A RAG-based AI agent that answers employee questions from company policy PDFs. A
 3. Add your Gemini API key as a Colab secret and read it with `userdata.get(...)`.
 4. Run all cells, then ask questions with `ask_policy("your question")`.
 
+## Evaluation
+Tested on a hand-written set of 35 questions with known answers ([eval/questions.csv](eval/questions.csv)): 29 answerable from the documents (facts, multi-part, calculations, holiday dates) and 6 out of scope.
+
+| Metric | Result |
+|---|---|
+| Retrieval hit@5 (right page among the 5 retrieved chunks) | 29/29 (100%) |
+| Answer accuracy (expected values present, no refusal) | 29/29 (100%) |
+| Citation accuracy (right document and page cited) | 29/29 (100%) |
+| Out-of-scope questions refused | 6/6 (100%) |
+| Wrong refusals of answerable questions | 0 |
+
+Answers are graded with keyword and regex checks rather than an LLM judge, to keep cost low. Per-question answers are in [eval/results.csv](eval/results.csv). Run it yourself with `python eval/eval.py` (needs `GOOGLE_API_KEY`).
+
+Caveats: this is a small set over 15 pages of clean, made-up documents, from a single run, so it shows the pipeline works as designed rather than how it would do on large or messy real-world documents. In the first run the grader itself made two mistakes (it took "not covered" as a refusal and missed a "Pages 1–2" citation); both checks were fixed and the saved answers re-scored without calling the model again.
+
 ## Limitations and next steps
 - Plain similarity search; no re-ranking or hybrid search yet
 - No conversation memory yet: each question is answered independently
-- No automated evaluation yet (for example RAGAS)
+- Evaluation is a small keyword-graded set; a larger set and RAGAS-style faithfulness scoring would be the next step
 - Document upload: let visitors try their own PDF (one file, about 10 pages) in a private index for their session, alongside the built-in documents. The holiday tool would be turned off for uploaded documents, since it expects the company holiday calendar
 
 ## Web demo

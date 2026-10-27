@@ -1,0 +1,36 @@
+id,category,question,expected_doc,expected_page,must_contain
+1,fact,How many days of Earned Leave does an employee get in a year?,Leave,1,18
+2,fact,How many days of Casual Leave can be taken at a time?,Leave,2,3
+3,fact,What is the maximum Earned Leave balance that can be accumulated?,Leave,2,45
+4,fact,After how many days of sick leave is a medical certificate required?,Leave,3,2
+5,fact,What is the maximum Sick Leave balance that can be carried forward?,Leave,3,20
+6,fact,How long is the probation period?,HR,1,6 month
+7,fact,What is the notice period for confirmed employees?,HR,4,60
+8,fact,What is the sum insured under the group medical insurance family floater?,HR,2,500000|5 lakh
+9,fact,How much internet reimbursement do hybrid employees get per month?,HR,3,1500
+10,fact,What is the referral bonus for an engineering role?,HR,3,30000
+11,fact,What is the maximum value of a gift an employee can accept per instance?,Company,2,5000
+12,fact,How many days a week must employees work from the office?,Company,3,3
+13,fact,Which days are the company-wide anchor days for office attendance?,Company,3,tuesday;wednesday
+14,fact,What is the hotel limit per night for business travel in Pune?,Company,3,6000
+15,fact,What is the minimum password length?,Company,2,14
+16,fact,How many paid holidays are there in 2026?,Holiday,1,14
+17,fact,How many Restricted Holidays can an employee choose?,Holiday,2,2
+18,fact,Within how many days must a compensatory off for working on a holiday be used?,Holiday,2,60
+19,multi,How many leaves in a year? Give sick and casual separately.,Leave,2,8;10
+20,multi,What is the notice period during probation and after confirmation?,HR,4,30;60
+21,multi,What is the daily allowance in metro cities and in other cities?,Company,3,2500;1800
+22,multi,What life insurance and personal accident cover does the company provide?,HR,2,3 times|3x|three times
+23,calc,I have already used 3 casual leaves this year. How many casual leaves do I have left?,Leave,2,5
+24,calc,How much internet reimbursement does a hybrid employee get in a full year?,HR,3,18000
+25,calc,What is the maximum hotel cost for 3 nights in Bengaluru excluding taxes?,Company,3,18000
+26,calc,If I take Earned Leave on a Friday and the following Monday how many days of EL are deducted?,Leave,2,4
+27,holiday,Which fixed holidays fall between 1 November 2026 and 31 December 2026?,Holiday,1,diwali;christmas
+28,holiday,How many fixed holidays are there from 1 October 2026 to 31 December 2026?,Holiday,1,4;dussehra
+29,holiday,On which day of the week does Independence Day fall in 2026?,Holiday,1,saturday
+30,refusal,Does the company provide free gym memberships?,,,
+31,refusal,What is Formula 1?,,,
+32,refusal,Does the company offer employee stock options?,,,
+33,refusal,Can I bring my pet to the office?,,,
+34,refusal,How many days of paternity leave do fathers get?,,,
+35,refusal,Is free parking available at the office?,,,
